@@ -2,13 +2,11 @@
 import datetime
 import time
 from numpy import *
-#from datetime import timedelta
 import requests
 import json
 import pandas as pd
 import re
 import getConfig as GETCFG
-#import base64
 
 Huatuo_DATA_API_PREFIX = 'http://csass.huatuo.crepri:30109/'
 INPUT_SUFFIX = '/briefing_input_data/'
